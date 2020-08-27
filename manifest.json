@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Github repo from URL",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*", "http://github.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png"
+  }
+}
