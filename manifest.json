@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Github repo from URL",
-  "version": "0.1",
+  "version": "1.0",
+  "description": "Turns 404 github URL requests to the new repo creation page.",
   "content_scripts": [
     {
       "matches": ["https://github.com/*", "http://github.com/*"],
